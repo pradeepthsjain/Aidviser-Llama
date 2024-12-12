@@ -22,13 +22,13 @@ conda activate aidviser
 pip install -r requirements.txt
 ```
 
-# 4. Create .env file in the root directory
+### 4. Create .env file in the root directory
 ```ini
 PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 PINECONE_API_ENV = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
-# 5. Download the quantize model
+### 5. Download the quantize model
 
 ```link
 https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
@@ -39,7 +39,7 @@ llama-2-7b-chat.ggmlv3.q4_0.bin
 ```
 Place this downloaded model in a folder called model in the root directoy.
 
-# 6. Run the program
+### 6. Run the program
 
 Make sure you have selected the right interpreter which goes by the name of the aidviser.
 
