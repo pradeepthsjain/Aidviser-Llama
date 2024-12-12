@@ -12,7 +12,7 @@ The application integrates advanced AI models with a user-friendly interface, en
 conda create -n aidviser python=3.8 -y
 ````
 
-### 2. Acxtivate the virtual environment
+### 2. Activate the virtual environment
 ```bash
 conda activate aidviser
 ```
